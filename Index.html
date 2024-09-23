@@ -7,20 +7,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="styles/styles.css">
     <title>Assignment 9</title>
 </head>
 <body>
     <header>
-        <h1>HELLO AND WELCOME!</h1>
+        <h1 class="animate__animated animate__bounce animate__infinite">HELLO AND WELCOME!</h1>
     </header>
 
-    <section class="card-section">
+    <section class="card-section animate__animated animate__bounceIn">
         <h2>You are one of the lucky people to get invited to my party!</h2>
-        <h2 class="WhereU">Where you say?<span class="HereI"> Here I say!</span></h2>
-        <h2 class="WhenU">When you say?<span class="ThenI"> Then I say!</span></h2>
-        <h2 class="HowU">How you say? <span class="HowI"> However I say!</span></h2>
+        <h2 class="WhereU animate__animated animate__backInLeft">Where you say? Here I say!</h2>
+        <h2 class="WhenU animate__animated animate__bounceInRight">When you say? Then I say!</h2>
+        <h2 class="HowU animate__animated animate__backInUp">How you say? However I say!</h2>
     </section>
-    
+    <br>
+    <h2 class="willU animate__animated animate__flash animate__infinite">WILL YOU BE THERE?!</h2>
+    <div>
+        <button class="btn-yes">Count me in!</button>
+        <button class="btn-no">Oh hell no.</button>
+    </div>
 </body>
 </html>
